@@ -1,0 +1,21 @@
+{
+  "name": "Silver Shah",
+  "version": "0.0.1",
+  "authors": [
+    "Diode-Bot <diode-bot@bk.ru>"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jquery.cycle2.min": "https://raw.github.com/malsup/malsup.github.com/master/min/jquery.cycle2.min.js"
+  },
+  "description": "Store",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

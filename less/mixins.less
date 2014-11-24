@@ -1,0 +1,47 @@
+//mixins
+
+.transform(@s)
+{
+    -webkit-transform: @s;
+       -moz-transform: @s;
+        -ms-transform: @s;
+         -o-transform: @s;
+            transform: @s;
+}
+
+.border-radius(@s: 4px)
+{
+    -webkit-border-radius: @s;
+       -moz-border-radius: @s;
+            border-radius: @s;
+
+        -ms-border-radius: @s;
+         -o-border-radius: @s;
+}
+
+.transition(@s: all .2s ease)
+{
+    -webkit-transition: @s;
+       -moz-transition: @s;
+        -ms-transition: @s;
+         -o-transition: @s;
+            transition: @s;
+}
+
+.shadow(@s: 0px 2px 3px rgba(0,0,0,.1))
+{
+    -webkit-box-shadow: @s;
+       -moz-box-shadow: @s;
+            box-shadow: @s;
+
+        -ms-box-shadow: @s;
+         -o-box-shadow: @s;
+}
+
+.animation(@s) {
+    -webkit-animation: @s;
+       -moz-animation: @s;
+        -ms-animation: @s;
+         -o-animation: @s;
+            animation: @s;
+}
