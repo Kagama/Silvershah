@@ -1,15 +1,17 @@
-@import 'colors';
-@import 'reset';
-@import 'typography';
-@import 'mixins';
+@import 'colors'; 		//Цвета
+@import 'reset';		//Сброс
+@import 'typography';	//Шрифты
+@import 'mixins';		//Миксины (кроссбраузер)
+@import 'animations';	//Миксины (кроссбраузер)
+@import 'general';		//Стили основных элементов
 
-@import 'general';
-@import 'header';
-@import 'main-menu';
+@import 'blocks/header';		//Стили шапки
+@import 'blocks/main-menu';	//Стили главного меню категорий в шапке
 
-@import 'slider';
+@import 'blocks/slider';		//Стили слайдера
+	
+@import 'blocks/filter';		//Стили фильтра для категории товаров
+@import 'blocks/category';		//Стили списка товаров
 
-@import 'category';
-
-@import 'socials';
-@import 'footer';
+@import 'blocks/socials';		//Стили иконок соцсетей
+@import 'blocks/footer';		//Стили футера

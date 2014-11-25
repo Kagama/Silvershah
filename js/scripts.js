@@ -5,7 +5,7 @@ $(document).ready(function() {
 		next: '#next',
 		prev: '#prev'
 	});
-
+	
 	$("nav.narrow").hide();
 
 	$(window).width() < 1100 ? $("nav.narrow").hide() : $("nav.narrow").hide();

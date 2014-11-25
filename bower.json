@@ -6,7 +6,8 @@
   ],
   "dependencies": {
     "jquery": "~2.1.1",
-    "jquery.cycle2.min": "https://raw.github.com/malsup/malsup.github.com/master/min/jquery.cycle2.min.js"
+    "jquery.cycle2.min": "https://raw.github.com/malsup/malsup.github.com/master/min/jquery.cycle2.min.js",
+    "nouislider": "~7.0.9"
   },
   "description": "Store",
   "license": "MIT",

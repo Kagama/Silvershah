@@ -39,6 +39,8 @@
 	line-height: 0;
 	letter-spacing: -1;
 
+	height:auto;padding-bottom:10px;overflow:hidden;
+
 	.hov {
 		position: absolute;
 		left: 0px;
@@ -74,7 +76,9 @@
 			color: @gray;
 			text-transform: uppercase;
 			font-size: 16px;
-			text-shadow: 0px 0px 3px #fff,0px 0px 3px #fff,0px 0px 3px #fff;
+			text-shadow: 0px 0px 3px #fff,
+						 0px 0px 3px #fff,
+						 0px 0px 3px #fff;
 		} 
 	}
 
@@ -127,7 +131,62 @@
 			color: @gray;
 			font-size: 18px;
 			text-align: left;
+
 		}
+		.price {
+			position: absolute;
+			top: 4px;
+			right: 20px;
+			font-size: 18px;
+			font-weight: 700;
+
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				right: -16px;
+				top: 0px;
+				width: 12px;
+				height: 20px;
+				background: url('i/rub-icon.png') no-repeat center;
+				background-size: 80%;
+			}
+		}
+	}
+}
+
+.big {
+	font-size: 18px;
+	line-height: normal;
+	letter-spacing: normal;
+	position: relative;
+	height: 500px;
+	overflow: hidden;
+	width: 40%;
+	border: 1px solid @gold;
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	cursor: pointer;
+	*zoom:1;
+
+	&.left {
+		float: left;
+	}
+
+	&.right {
+		float: right;
+		border-top: none;
+		border-left: none;
+	}
+
+	img {
+		max-width: 80%;
+	}
+
+	span {
+		display: block;
+		font-size: 24px;
 	}
 }
 
